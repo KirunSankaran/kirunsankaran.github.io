@@ -1,0 +1,42 @@
+/* CV page only — layered on top of style.css */
+
+h1 {                     /* name */
+  text-align: center;
+  font-size: 2rem;
+  margin: .4rem 0 .2rem;
+}
+
+h1 + p {                 /* the contact block right under the name */
+  text-align: center;
+  color: var(--muted);
+  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  font-size: .9rem;
+  line-height: 1.6;
+  margin: 0 0 2.4rem;
+}
+
+h2 {                     /* section headers: understated academic caps */
+  font-size: .82rem;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--muted);
+  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: .3rem;
+  margin-top: 2.5rem;
+}
+
+h3 {                     /* subsection headers, e.g. Peer-Reviewed Publications */
+  font-size: 1rem;
+  color: var(--ink);
+  font-weight: 700;
+  margin: 1.5rem 0 .5rem;
+}
+
+/* tighter, CV-appropriate rhythm */
+p { margin: .4rem 0; }
+ol, ul { margin: .4rem 0; }
+li { margin: .25rem 0; }
+
+/* hanging indent so publication/entry lines that wrap stay aligned */
+h3 + p, ol li, ul li { }
