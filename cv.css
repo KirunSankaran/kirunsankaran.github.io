@@ -38,5 +38,10 @@ p { margin: .4rem 0; }
 ol, ul { margin: .4rem 0; }
 li { margin: .25rem 0; }
 
-/* hanging indent so publication/entry lines that wrap stay aligned */
-h3 + p, ol li, ul li { }
+/* "Download CV (PDF)" link under the nav */
+.cv-download {
+  text-align: right;
+  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  font-size: .85rem;
+  margin: -1.4rem 0 1.6rem;
+}
