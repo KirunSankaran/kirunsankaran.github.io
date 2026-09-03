@@ -15,6 +15,17 @@ h1 + p {                 /* the contact block right under the name */
   margin: 0 0 2.4rem;
 }
 
+/* "Curriculum Vitae" — the bolded first line of the masthead block */
+h1 + p strong:first-child {
+  display: block;
+  font-size: .82rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 .9rem;
+}
+
 h2 {                     /* section headers: understated academic caps */
   font-size: .82rem;
   text-transform: uppercase;
